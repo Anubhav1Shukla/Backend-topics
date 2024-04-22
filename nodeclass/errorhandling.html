@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo">Click here to see result</p>
+    <form>
+        <input type="button" value="Click It" onclick="first()">
+
+    </form>
+    <script>
+        function first(){
+            let a=123;
+            let b=0;
+            try{
+                if(b==0){
+                    throw "Cannot divide by 0";
+                }
+
+            }
+            catch(e){
+                document.getElementById('demo').innerHTML+="<br>"+e+"<br>";
+            }
+            finally{
+                document.getElementById('demo').innerHTML+="It will excute always";
+            }
+        }
+    </script>
+</body>
+</html>

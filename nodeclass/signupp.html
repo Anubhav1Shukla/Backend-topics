@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp-Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(144, 192, 192);
+        }
+        .h1{
+            display: flex;
+            justify-content: center;
+           
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h2 class="h1">Sign Up</h2>
+    <div class="container">
+    <form id="registrationForm" action="/signup" method="POST">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="confirm_password">Confirm Password:</label><br>
+        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+
+        <input type="submit" value="Sign Up">
+    </form>
+</div>
+</body>
+</html>
+
+

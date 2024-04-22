@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function changeBackground(){
+        var x = document.getElementById('bg');
+        var inputValue = x.value;
+        var red = inputValue.length * 10;
+        var green = 150;
+        var blue = 200;
+
+        x.style.backgroundColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
+    }
+</script>
+<body>
+    <h4>The input</h4>
+    <input type="text" id="bg" placeholder="write something" style="background-color: azure;" oninput="changeBackground()"/>  
+</body>
+</html>

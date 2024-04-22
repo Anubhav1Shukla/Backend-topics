@@ -1,0 +1,27 @@
+{
+  "name": "nodeclass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "connect": "^3.7.0",
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "fs": "^0.0.1-security",
+    "i": "^0.3.7",
+    "lodash": "^4.17.21",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.0",
+    "nodemon": "^3.1.0",
+    "readline-async": "^0.1.0",
+    "socket.io": "^4.7.5",
+    "stream": "^0.0.2"
+  }
+}

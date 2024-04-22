@@ -1,0 +1,7 @@
+{
+    "key1":123,
+    "key2":"mapping",
+    "key3":true,
+    "key4":{"price":200, "area":235},
+    "key5": ["INT222", "INT219", "CSE326", {"course1":5, "course2":4}]
+}
