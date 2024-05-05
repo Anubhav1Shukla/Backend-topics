@@ -57,7 +57,6 @@ Server: server.js is the entry point of the server, where Express is initialized
 5. Contributing:
 Contributions to this project are welcome! If you have suggestions for improvements, open a new issue or submit a pull request with your changes. Please follow the existing code style and conventions.
 
-6. License:
-This project is licensed under the MIT License.
+
 
 Feel free to explore the provided examples and experiment with different configurations. If you have any questions or encounter any issues, don't hesitate to reach out. Happy coding! 🚀
