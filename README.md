@@ -1,5 +1,5 @@
 
-Node.js Basics: Server with Express and MongoD
+Node.js Basics: Server with Express and MongoDb
 
 Welcome to the Node.js Basics repository! This repository covers fundamental backend topics such as setting up a server using Express.js and integrating MongoDB for database operations. Below is a comprehensive guide to help you understand and utilize the content provided.
 
